@@ -4,40 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto Sans:ital,wght@0,400;0,700;1,400;1,700');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700');
 
-.gallery-container { 
-  margin: 0; 
-  padding: 0; 
-  overflow: hidden; 
-  position: relative;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.gallery-container .content-figure {
-  position: absolute;
-  top: 0;
-  transition: .5s ease all;
-}
-
-.gallery-nav-button {
-    display: flex; 
-    font-size: 1rem;
-    align-items: center; 
-    justify-content: center;
-    color: inherit; 
-    border-radius: 50%;
-    width: 1.5rem; 
-    height: 1.5rem;
-    background: inherit;
-    border: none;
-    box-shadow: none;
-    cursor: pointer;
-}
-  
-
-
   .lightbox {
     position: fixed;
     left: 0;
@@ -555,3 +521,41 @@ em{
 /*.summary-item.section.is-level-1 {
   display: none;
 }  */
+
+/* carousel */
+
+  .gallery-container { 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .gallery-container .content-figure {
+    position: absolute;
+    top: 0;
+    transition: .5s ease all;
+  }
+  
+  .gallery-nav-button {
+      display: flex; 
+      font-size: 1rem;
+      align-items: center; 
+      justify-content: center;
+      color: inherit; 
+      border-radius: 50%;
+      width: 1.5rem; 
+      height: 1.5rem;
+      background: inherit;
+      border: none;
+      box-shadow: none;
+      cursor: pointer;
+  }
+  
+.note-backlink {
+  margin-left: 5px;
+}
